@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | La Pura Pasión</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Baloncesto Total</div>
+        <nav class="nav">
+            <a href="index.html">Inicio</a>
+            <a href="Iniciar sesión.html">Iniciar sesión</a>
+            <a href="Registro.html">Registro</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="portafolio.html">Portafolio</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero hero-background-image">
+            <div class="hero-content">
+                <h1>La Pasión Vive en la Cancha</h1>
+                <p>Descubre la historia, las reglas y el legado de uno de los deportes más emocionantes del mundo.</p>
+                <button class="btn-open btn-primary">¡subscribete!</button>
+            </div>
+        </section>
+    </main>
+    
+    <div class="modal hidden">
+        <button class="btn-close">&times;</button>
+        <h3>¡Únete al Equipo! </h3>
+        <p>Regístrate para recibir las últimas noticias y análisis del mundo del baloncesto directamente en tu correo.</p>
+        <form>
+            <input type="text" placeholder="Tu Nombre">
+            <input type="email" placeholder="Tu Email">
+            <button class="btn-action btn-primary">Suscribirme</button>
+        </form>
+    </div>
+    
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
